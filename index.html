@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="NamiListen 是 Windows 和 Android 上的本地音乐播放器。浏览专辑、整理歌单，从上次暂停的位置继续听。">
+  <meta name="theme-color" content="#111214">
+  <title>NamiListen · 本地音乐播放器</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="wrap mast">
+    <a class="brand" href="./" aria-label="NamiListen 首页"><img src="mark.svg" width="32" height="32" alt="">NamiListen</a>
+    <nav aria-label="主导航"><a href="#platforms">支持平台</a><a href="https://github.com/Yo1128/NamiListen/releases">版本记录 ↗</a></nav>
+  </header>
+  <main>
+    <section class="wrap opening" aria-labelledby="title">
+      <div class="intro">
+        <h1 id="title">从上次暂停的<br>那首歌继续。</h1>
+        <p>NamiListen 读取你选的音乐文件夹。<br>打开自己的专辑和歌单，音乐留在原处。</p>
+        <a class="action" href="#platforms">查看支持平台 <span aria-hidden="true">↓</span></a>
+      </div>
+      <figure class="album">
+        <img src="tidal-letters.webp" width="640" height="640" alt="专辑 Tidal Letters 的封面，一座薄雾中的海岛">
+        <figcaption><span>Tidal Letters</span><span>Mio Arai</span></figcaption>
+      </figure>
+    </section>
+    <section id="platforms" class="platforms">
+      <div class="wrap">
+        <h2>在你的设备上听</h2>
+        <article class="platform">
+          <div><h3>Windows</h3><p class="spec">Windows x64</p><p>按专辑、曲目或文件夹浏览，给喜欢的歌排个顺序。全屏播放时可以查看同步歌词。</p></div>
+          <a class="screen" href="windows.webp" aria-label="查看 Windows 曲库界面大图"><img src="windows.webp" width="1250" height="811" loading="lazy" alt="Windows 版曲库首页，显示续听专辑和最近入库的唱片"></a>
+        </article>
+        <article class="platform android">
+          <div><h3>Android</h3><p class="spec">Android 7.0 及以上</p><p>选择手机上的音乐文件夹开始播放。锁屏后可用系统媒体控件切歌，重开应用可继续上次的进度。</p></div>
+          <a class="screen" href="android.webp" aria-label="查看 Android 曲库界面大图"><img src="android.webp" width="540" height="1080" loading="lazy" alt="Android 版曲目列表和底部的播放进度与切歌控件"></a>
+        </article>
+      </div>
+    </section>
+    <section class="wrap release" aria-labelledby="release-title">
+      <div><h2 id="release-title">获取 NamiListen</h2><p>0.1.0 正在进行发布前测试。正式安装包将在 GitHub Releases 提供。</p></div>
+      <a class="action" href="https://github.com/Yo1128/NamiListen/releases">查看发布记录 ↗</a>
+    </section>
+  </main>
+  <footer class="wrap"><span>NamiListen</span><a href="https://github.com/Yo1128/NamiListen">GitHub ↗</a></footer>
+</body>
+</html>
